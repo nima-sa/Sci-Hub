@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Sci-Hub Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "This is Sci-Hub Extension. You should tell us what your extension does here.",
+        "description": "Description of what the extension does."
+    }
+}

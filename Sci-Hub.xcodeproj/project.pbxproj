@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C83AC6C284A053300CBB60F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83AC6B284A053300CBB60F /* AppDelegate.swift */; };
+		3C83AC70284A053300CBB60F /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC6E284A053300CBB60F /* Main.html */; };
+		3C83AC72284A053300CBB60F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC71284A053300CBB60F /* Icon.png */; };
+		3C83AC74284A053300CBB60F /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC73284A053300CBB60F /* Style.css */; };
+		3C83AC76284A053300CBB60F /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC75284A053300CBB60F /* Script.js */; };
+		3C83AC78284A053300CBB60F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83AC77284A053300CBB60F /* ViewController.swift */; };
+		3C83AC7B284A053300CBB60F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC79284A053300CBB60F /* Main.storyboard */; };
+		3C83AC7D284A053500CBB60F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC7C284A053500CBB60F /* Assets.xcassets */; };
+		3C83AC85284A053500CBB60F /* Sci-Hub Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3C83AC84284A053500CBB60F /* Sci-Hub Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3C83AC8A284A053500CBB60F /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83AC89284A053500CBB60F /* SafariWebExtensionHandler.swift */; };
+		3C83AC8D284A053500CBB60F /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC8C284A053500CBB60F /* _locales */; };
+		3C83AC8F284A053500CBB60F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC8E284A053500CBB60F /* images */; };
+		3C83AC91284A053500CBB60F /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC90284A053500CBB60F /* manifest.json */; };
+		3C83AC93284A053500CBB60F /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC92284A053500CBB60F /* background.js */; };
+		3C83AC95284A053500CBB60F /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC94284A053500CBB60F /* content.js */; };
+		3C83AC97284A053500CBB60F /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC96284A053500CBB60F /* popup.html */; };
+		3C83AC99284A053500CBB60F /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC98284A053500CBB60F /* popup.css */; };
+		3C83AC9B284A053500CBB60F /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3C83AC9A284A053500CBB60F /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C83AC86284A053500CBB60F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C83AC60284A053300CBB60F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C83AC83284A053500CBB60F;
+			remoteInfo = "Sci-Hub Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C83ACA3284A053500CBB60F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3C83AC85284A053500CBB60F /* Sci-Hub Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C83AC68284A053300CBB60F /* Sci-Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sci-Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83AC6B284A053300CBB60F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C83AC6F284A053300CBB60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3C83AC71284A053300CBB60F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3C83AC73284A053300CBB60F /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3C83AC75284A053300CBB60F /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3C83AC77284A053300CBB60F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C83AC7A284A053300CBB60F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C83AC7C284A053500CBB60F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C83AC7E284A053500CBB60F /* Sci_Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sci_Hub.entitlements; sourceTree = "<group>"; };
+		3C83AC7F284A053500CBB60F /* Sci-Hub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sci-Hub.entitlements"; sourceTree = "<group>"; };
+		3C83AC84284A053500CBB60F /* Sci-Hub Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sci-Hub Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C83AC89284A053500CBB60F /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3C83AC8C284A053500CBB60F /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		3C83AC8E284A053500CBB60F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3C83AC90284A053500CBB60F /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		3C83AC92284A053500CBB60F /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		3C83AC94284A053500CBB60F /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		3C83AC96284A053500CBB60F /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		3C83AC98284A053500CBB60F /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		3C83AC9A284A053500CBB60F /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		3C83AC9C284A053500CBB60F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C83AC9D284A053500CBB60F /* Sci_Hub_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sci_Hub_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C83AC65284A053300CBB60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83AC81284A053500CBB60F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C83AC5F284A053300CBB60F = {
+			isa = PBXGroup;
+			children = (
+				3C83AC6A284A053300CBB60F /* Sci-Hub */,
+				3C83AC88284A053500CBB60F /* Sci-Hub Extension */,
+				3C83AC69284A053300CBB60F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C83AC69284A053300CBB60F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C83AC68284A053300CBB60F /* Sci-Hub.app */,
+				3C83AC84284A053500CBB60F /* Sci-Hub Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C83AC6A284A053300CBB60F /* Sci-Hub */ = {
+			isa = PBXGroup;
+			children = (
+				3C83AC6B284A053300CBB60F /* AppDelegate.swift */,
+				3C83AC77284A053300CBB60F /* ViewController.swift */,
+				3C83AC79284A053300CBB60F /* Main.storyboard */,
+				3C83AC7C284A053500CBB60F /* Assets.xcassets */,
+				3C83AC7E284A053500CBB60F /* Sci_Hub.entitlements */,
+				3C83AC7F284A053500CBB60F /* Sci-Hub.entitlements */,
+				3C83AC6D284A053300CBB60F /* Resources */,
+			);
+			path = "Sci-Hub";
+			sourceTree = "<group>";
+		};
+		3C83AC6D284A053300CBB60F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C83AC6E284A053300CBB60F /* Main.html */,
+				3C83AC71284A053300CBB60F /* Icon.png */,
+				3C83AC73284A053300CBB60F /* Style.css */,
+				3C83AC75284A053300CBB60F /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C83AC88284A053500CBB60F /* Sci-Hub Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3C83AC89284A053500CBB60F /* SafariWebExtensionHandler.swift */,
+				3C83AC9C284A053500CBB60F /* Info.plist */,
+				3C83AC9D284A053500CBB60F /* Sci_Hub_Extension.entitlements */,
+				3C83AC8B284A053500CBB60F /* Resources */,
+			);
+			path = "Sci-Hub Extension";
+			sourceTree = "<group>";
+		};
+		3C83AC8B284A053500CBB60F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C83AC8C284A053500CBB60F /* _locales */,
+				3C83AC8E284A053500CBB60F /* images */,
+				3C83AC90284A053500CBB60F /* manifest.json */,
+				3C83AC92284A053500CBB60F /* background.js */,
+				3C83AC94284A053500CBB60F /* content.js */,
+				3C83AC96284A053500CBB60F /* popup.html */,
+				3C83AC98284A053500CBB60F /* popup.css */,
+				3C83AC9A284A053500CBB60F /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C83AC67284A053300CBB60F /* Sci-Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C83ACA4284A053500CBB60F /* Build configuration list for PBXNativeTarget "Sci-Hub" */;
+			buildPhases = (
+				3C83AC64284A053300CBB60F /* Sources */,
+				3C83AC65284A053300CBB60F /* Frameworks */,
+				3C83AC66284A053300CBB60F /* Resources */,
+				3C83ACA3284A053500CBB60F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C83AC87284A053500CBB60F /* PBXTargetDependency */,
+			);
+			name = "Sci-Hub";
+			productName = "Sci-Hub";
+			productReference = 3C83AC68284A053300CBB60F /* Sci-Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C83AC83284A053500CBB60F /* Sci-Hub Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C83ACA0284A053500CBB60F /* Build configuration list for PBXNativeTarget "Sci-Hub Extension" */;
+			buildPhases = (
+				3C83AC80284A053500CBB60F /* Sources */,
+				3C83AC81284A053500CBB60F /* Frameworks */,
+				3C83AC82284A053500CBB60F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sci-Hub Extension";
+			productName = "Sci-Hub Extension";
+			productReference = 3C83AC84284A053500CBB60F /* Sci-Hub Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C83AC60284A053300CBB60F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3C83AC67284A053300CBB60F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3C83AC83284A053500CBB60F = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 3C83AC63284A053300CBB60F /* Build configuration list for PBXProject "Sci-Hub" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C83AC5F284A053300CBB60F;
+			productRefGroup = 3C83AC69284A053300CBB60F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C83AC67284A053300CBB60F /* Sci-Hub */,
+				3C83AC83284A053500CBB60F /* Sci-Hub Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C83AC66284A053300CBB60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83AC72284A053300CBB60F /* Icon.png in Resources */,
+				3C83AC7B284A053300CBB60F /* Main.storyboard in Resources */,
+				3C83AC76284A053300CBB60F /* Script.js in Resources */,
+				3C83AC70284A053300CBB60F /* Main.html in Resources */,
+				3C83AC7D284A053500CBB60F /* Assets.xcassets in Resources */,
+				3C83AC74284A053300CBB60F /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83AC82284A053500CBB60F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83AC93284A053500CBB60F /* background.js in Resources */,
+				3C83AC99284A053500CBB60F /* popup.css in Resources */,
+				3C83AC97284A053500CBB60F /* popup.html in Resources */,
+				3C83AC8F284A053500CBB60F /* images in Resources */,
+				3C83AC91284A053500CBB60F /* manifest.json in Resources */,
+				3C83AC8D284A053500CBB60F /* _locales in Resources */,
+				3C83AC95284A053500CBB60F /* content.js in Resources */,
+				3C83AC9B284A053500CBB60F /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C83AC64284A053300CBB60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83AC78284A053300CBB60F /* ViewController.swift in Sources */,
+				3C83AC6C284A053300CBB60F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C83AC80284A053500CBB60F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83AC8A284A053500CBB60F /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C83AC87284A053500CBB60F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C83AC83284A053500CBB60F /* Sci-Hub Extension */;
+			targetProxy = 3C83AC86284A053500CBB60F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C83AC6E284A053300CBB60F /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C83AC6F284A053300CBB60F /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3C83AC79284A053300CBB60F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C83AC7A284A053300CBB60F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C83AC9E284A053500CBB60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C83AC9F284A053500CBB60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3C83ACA1284A053500CBB60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sci-Hub Extension/Sci_Hub_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75W7V3XQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sci-Hub Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sci-Hub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nima.single.Sci-Hub.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C83ACA2284A053500CBB60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Sci-Hub Extension/Sci_Hub_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75W7V3XQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sci-Hub Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sci-Hub Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nima.single.Sci-Hub.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3C83ACA5284A053500CBB60F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sci-Hub/Sci-Hub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75W7V3XQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sci-Hub";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nima.single.Sci-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3C83ACA6284A053500CBB60F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sci-Hub/Sci-Hub.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V75W7V3XQ8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Sci-Hub";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nima.single.Sci-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C83AC63284A053300CBB60F /* Build configuration list for PBXProject "Sci-Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83AC9E284A053500CBB60F /* Debug */,
+				3C83AC9F284A053500CBB60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C83ACA0284A053500CBB60F /* Build configuration list for PBXNativeTarget "Sci-Hub Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83ACA1284A053500CBB60F /* Debug */,
+				3C83ACA2284A053500CBB60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C83ACA4284A053500CBB60F /* Build configuration list for PBXNativeTarget "Sci-Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C83ACA5284A053500CBB60F /* Debug */,
+				3C83ACA6284A053500CBB60F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C83AC60284A053300CBB60F /* Project object */;
+}
