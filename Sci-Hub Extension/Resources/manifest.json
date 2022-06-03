@@ -3,7 +3,7 @@
     "default_locale": "en",
 
     "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
+    "description": "Opens the current article in Sci-Hub",
     "version": "1.0",
 
     "icons": {
@@ -21,7 +21,7 @@
 
     "content_scripts": [{
         "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
+        "matches": [ "<all_urls>" ]
     }],
 
     "browser_action": {
@@ -30,11 +30,9 @@
             "16": "images/toolbar-icon-16.png",
             "19": "images/toolbar-icon-19.png",
             "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
+            "38": "images/toolbar-icon-38.png"
         }
     },
 
-    "permissions": [ ]
+    "permissions": [ "<all_urls>", "notifications", "create", "tabs", "nativeMessaging" ]
 }

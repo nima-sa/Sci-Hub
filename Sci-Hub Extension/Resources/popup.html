@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="popup.css">
-    <script type="module" src="popup.js"></script>
-</head>
-<body>
-    <strong>Hello World!</strong>
-</body>
+    <head>
+        <style>
+            body {
+                width: 130px;
+            }
+            button {
+                position: relative;
+                display: inline-block;
+                padding: .8em;
+                color: white;
+                border: 1px solid transparent;
+                border-radius: 3px;
+                background-color: transparent;
+                outline: none;
+                font-size: 13px;
+                font-weight: normal;
+                line-height: 1.15384615;
+                text-align: center;
+                text-decoration: none;
+                cursor: pointer;
+                border-radius: 5px;
+                background: hsl(27,90%,50%);
+            }
+            div {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <button id="btn">Open in sci-hub</button>
+        </div>
+    </body>
+    <script src="popup.js"></script>
 </html>
